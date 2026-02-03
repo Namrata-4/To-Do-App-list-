@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>what To Do app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1 >To-Do-App</h1>
+            <div class="stat-container">
+                <div class="details">
+                    <h3 style="color:plum;">keep it Up :)</h3>
+                    <div id="progessbar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div class="stats-number">
+                    <p id="numbers">0/0</p>
+                </div>
+            </div>
+
+
+           <form action="" class="input-area" id="task-form">
+            <input type="text" id="task-input" placeholder="add a new task..!" aria-label="Task input">
+            <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+           </form>
+           <div class="todo-container">
+            <ul id="task-list">
+                <!-- <li>cssnippets</li>
+                <li>html</li>
+                <li>css</li> -->
+            </ul>
+                <img class="empty-image" src="girl.jpg" alt="empty" width="200" height="200">
+           </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</html>
